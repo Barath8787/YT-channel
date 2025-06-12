@@ -30,7 +30,7 @@ const fetchData = async () => {
   }
 };
   useEffect(() => {
-    console.log(catagory); // Check the value of category here
+    console.log(` checkking Catagory`,catagory); // Check the value of category here
     fetchData();
   }, [catagory])
 
@@ -39,7 +39,7 @@ const fetchData = async () => {
     <div className='Feed'>
       {data.map((item, index) => {
         return (
-          <Link to={`/video/${item.snippet.categoryId}/${item.id}`} className="card">
+          <Link to={`/video/${item.snippet.categoryId}/${item.id}`} className="card" key={index}>
             {/* <Link to={`/video/${item.snippet.categoryId}/${item.id}`} className="card">
  */}
             <img src={`${item.snippet.thumbnails.medium.url}`} alt="thum1" />
