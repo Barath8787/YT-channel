@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
+// https://vite.dev/config/
 export default defineConfig({
-  base: '/Youtube_clone/',
   plugins: [react()],
-})
+  base:"/Youtube_clone/"
+});

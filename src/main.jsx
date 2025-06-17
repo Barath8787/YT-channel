@@ -5,9 +5,11 @@ import App from './App.jsx'
 import { BrowserRouter } from 'react-router-dom'
 
 createRoot(document.getElementById('root')).render(
- <React.StrictMode>
-      <BrowserRouter basename="/Youtube_clone">  <App /> </BrowserRouter>
- </React.StrictMode>
+<StrictMode>
+  <BrowserRouter basename="/Youtube_clone">
+    <App />
+  </BrowserRouter>
+</StrictMode>
 
    
   
