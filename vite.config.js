@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Youtube_clone/' // ✅ Must match repo name exactly
+  base: '/Youtube_clone/' 
 })
