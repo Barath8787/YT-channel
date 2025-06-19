@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-"homepage": "https://barath8787.github.io/Youtube_clone/",  
+ "homepage": "https://barath8787.github.io/Youtube_clone/",
+
 
 "scripts": {
     "dev": "vite",
