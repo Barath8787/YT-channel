@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Youtube_clone/' 
+  base: "/YT-channel/",
 })
