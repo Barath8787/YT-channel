@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -14,3 +15,6 @@ If you are developing a production application, we recommend using TypeScript wi
 =======
 # Youtube_clone
 >>>>>>> 9b487a45eeadcbcaaa2dbc3437e87641314bb205
+=======
+# YT-channel
+>>>>>>> ef9a5308617602966ef8a6c02929a8e3bfc530da
