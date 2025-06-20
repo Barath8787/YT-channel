@@ -8,15 +8,17 @@ import Videos from './pages/Videos/Videos'
 function App() {
   const [sidebar, setSidebar] = useState(true)
 
-  return (
-    <div>
-      <Navbar setSidebar={setSidebar} />
-      <Routes>
-        <Route path="/" element={<Home sidebar={sidebar} />} />
-        <Route path="/video/:categoryId/:videoId" element={<Videos />} />
-      </Routes>
-    </div>
-  )
+return (
+  <div>
+    <h1 style={{ color: 'red' }}>App is working!</h1> {/* Add this */}
+    <Navbar setSidebar={setSidebar} />
+    <Routes>
+      <Route path="/" element={<Home sidebar={sidebar} />} />
+      <Route path="/video/:categoryId/:videoId" element={<Videos />} />
+    </Routes>
+  </div>
+)
+
 }
 
 export default App
